@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tiffany's AI Recipe Generator</title>
   </head>
@@ -12,7 +13,7 @@
         <h1>AI Recipe Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="recipe-generator-form">
           <input
             type="text"
             placeholder="Enter cuisine..."
@@ -24,10 +25,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="recipe">
-          Recipe will go here
-          <br />
-          Recipe will go here
+        <div class="recipe" id="recipe">
         </div>
       </main>
       <footer>
