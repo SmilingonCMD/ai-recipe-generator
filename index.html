@@ -3,22 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Caveat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tiffany's AI Recipe Generator</title>
+    <title>AI Pastry Chef</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Recipe Generator</h1>
+        <div class="pastry-chef-heading">
+          <div class="pastry-chef-ai">Meet Pâtisserie Perry!</div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/438/original/Screen_Shot_2024-02-02_at_2.29.30_PM.png?1706912989"
+            alt="ai-chef"
+          />
+        </div>
+        <h1>World Dessert Recipe AI Chef</h1>
       </header>
       <main>
         <div class="form-container">
           <form id="recipe-generator-form">
             <input
               type="text"
-              placeholder="Enter a type of cuisine..."
+              placeholder="Please enter a country you would like a dessert recipe from..."
               autofocus
               required
               autocomplete="off"
@@ -27,26 +42,26 @@
             />
             <input type="submit" class="submit-button" />
           </form>
-          <div class="example">i.e. Italian, Peruvian or Spanish</div>
+          <div class="example">i.e. Italy, Spain or France</div>
         </div>
         <div class="recipe hidden" id="recipe"></div>
       </main>
       <footer>
         This project was coded by
         <a href="https://github.com/SmilingonCMD" target="_blank"
-          >Tiffany Zivalich</a
+          ><strong>Tiffany Zivalich</strong></a
         >
-        and
+        🍥 and
         <a
           href="https://github.com/SmilingonCMD/ai-recipe-generator"
           target="_blank"
           >is open-sourced on GitHub</a
         >
-        and is hosted on
+        and
         <a
           href="https://tiffanys-ai-recipe-generator.netlify.app/"
           target="_blank"
-          >Netlify</a
+          >is hosted on Netlify</a
         >
       </footer>
     </div>

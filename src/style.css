@@ -1,11 +1,23 @@
 body {
-  background-color: #f9f7fe;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f3e5d8;
+  font-family: "Bodoni Moda", serif;
+}
+
+img {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.pastry-chef-heading {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #272044;
+  text-align: center;
 }
 
 a {
-  color: #885df1;
+  color: #ea8f84;
 }
 
 .container {
@@ -22,18 +34,20 @@ h1 {
   line-height: 1.5;
   color: #272044;
   text-align: center;
+  margin-top: 0;
 }
 
 h2 {
+  font-family: "Caveat", cursive;
   text-align: center;
-  font-size: 34px;
+  font-size: 45px;
 }
 
 .form-container {
   padding: 30px 30px 20px 30px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  background-color: #fdfaf9;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   margin-bottom: 30px;
 }
 
@@ -43,12 +57,12 @@ form {
 .example {
   line-height: 1.5;
   margin-top: 5px;
-  font-size: 12px;
+  font-size: 13px;
   opacity: 0.7;
 }
 
 em {
-  color: #885df1;
+  color: #ea8f84;
   font-weight: 200;
   display: block;
 }
@@ -65,7 +79,7 @@ em {
 
 .submit-button {
   margin-left: 10px;
-  background-color: #885df1;
+  background-color: #edb8b2;
   border: none;
   color: white;
   width: 150px;
@@ -76,12 +90,12 @@ em {
 
 .recipe {
   font-size: 16px;
-  background-color: #ffffff;
+  background-color: #fdfaf9;
   padding: 20px;
   line-height: 24px;
-  border-left: 3px solid #885df1;
-  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
-  border-radius: 10px;
+  border-left: 5px solid #edb8b2;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 4px;
 }
 
 .hidden {
@@ -100,6 +114,6 @@ em {
 
 footer {
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 30px;
 }
